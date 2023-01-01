@@ -1,0 +1,50 @@
+{
+  "homepage": "https://shdiqq.github.io/referenflix",
+  "name": "tugas-akhir-front-end-web-development",
+  "version": "1.0.0",
+  "description": "Tugas Akhir Front End Web Development",
+  "main": "index.js",
+  "repository": {
+    "url": "git+https://github.com/shdiqq/referenflix.git"
+  },
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Shadiq Harwiz",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.30.0",
+    "eslint-config-google": "^0.14.0",
+    "exports-loader": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.20",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.11",
+    "webpack-bundle-analyzer": "^4.7.0"
+  }
+}
